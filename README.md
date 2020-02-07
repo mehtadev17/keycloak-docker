@@ -1,10 +1,15 @@
 # Build
 
 ```
-docker build -t myapp-keycloak:0.1.0 .
+bin/build
 ```
 
 # Run
 ```
-docker-compose up
+bin/run
+```
+
+# Stop
+```
+bin/stop
 ```
