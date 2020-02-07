@@ -1,0 +1,103 @@
+/* Seting HTML Display Name field in realm settings to <span class="kc-logo-text"><div class="kc-logo"></div>Admin SSO</span> */
+
+/* Colors background */
+.login-pf body {
+    background: #f2f2f2;
+    font-family: "Trebuchet MS",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+}
+/* Centers logo and colors text */
+#kc-header {
+    text-align: center;
+    color: black;
+}
+/* Adds logo */
+div.kc-logo {
+    background: url("../img/logo.png") no-repeat left;
+    height: 200px;
+    width: 200px;
+}
+/* Centers logo and text */
+.kc-logo-text {
+    display: flex;
+}
+/* Centers logo and text */
+#kc-header-wrapper {
+    display: inline-flex;
+}
+/* Sets white section */
+.card-pf {
+    display: flex;
+    padding: 25px;
+    max-width: 325px;
+}
+/* Sets padding above username field */
+.login-pf-header{
+    padding-top: 25px;
+}
+/* Hides border right of white form section */
+#kc-form-wrapper {
+    border: none;
+    padding: 0px;
+}
+/* Hides "Login" text above username field*/
+#kc-page-title {
+    display: none;
+}
+.form-group .control-label {
+    display: flex;
+}
+/* Style Username and Password field */
+input[type=text], input[type=password] {
+    color:#000;
+    background-color: transparent;
+    box-shadow:none;
+    border: none;
+    border-bottom: 2px solid #c5c5c5;
+    font-size: .875rem;
+    outline: 0;
+    transition: all .3s ease;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 90%;
+}
+/* Style Username and Password field when focused */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #eaebec;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+/* Center login button*/
+#kc-form-buttons {
+    text-align: center;
+}
+/* Styles login button */
+#kc-login {
+    font-size: .9375rem;
+    font-weight: 500;
+    padding: .625rem 2.5rem;
+    color: #fff;
+    border-radius: .25rem;
+    background-color: #093e91;
+    border-color: #083985;
+}
+/* Styles Error Alert on Login Form */
+.alert-error {
+    padding: 10px;
+    border-color: #cc0000;
+    color: #cc0000;
+    text-align: center;
+    border: 1px solid;
+    margin-bottom: 15px;
+}
+.login-pf-settings {
+    display: inline-flex;
+    font-size: 12px;
+}
+/* Styles the remember me and forgot password if visible */
+#kc-form-options {
+    padding-right: 130px;
+}
+/* Styles the client proviers if visible */
+#kc-social-providers {
+    padding-left: 0px;
+}
